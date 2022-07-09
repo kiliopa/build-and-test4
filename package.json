@@ -1,0 +1,11 @@
+{
+    "name": "build-and-test-challenge",
+    "version": "0.1.0",
+    "private": true,
+    "engines": {
+      "node": "16.x"
+    },
+    "scripts": {
+      "start": "npm start --port 8000"
+    }
+  }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p id="demo"></p>
+
+<script>
+  let Newtext= "welcome to my world"
+function myFunction() { 
+
+  document.getElementById("demo").innerHTML = Newtext; 
+  testUnitairePrint(); 
+}
+
+function unitTestPrint(){
+    if (document.getElementById("demo").innerHTML === Newtext){
+        console.log("Test Succeed")
+    }
+    else throw Error ("Test Failed On MyFunction")
+}
+
+</script>
+
+</body>
+</html>
